@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java OOP Inheritance and Encapsulation on QA June 2024</title>
+    <link>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/</link>
+    <description>Recent content in Java OOP Inheritance and Encapsulation on QA June 2024</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java OOP Getter and Setter</title>
+      <link>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-getter-setter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-getter-setter/</guid>
+      <description>Java OOP Getter and Setter: class Student { private String name; public String getName() { return name; } public void setName(String name) { this.name = name; } } </description>
+    </item>
+    <item>
+      <title>Java OOP Single Inheritance</title>
+      <link>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-single-inheritance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-single-inheritance/</guid>
+      <description>Java OOP Single Inheritance: class Animal { void eat() { System.out.println(&amp;#34;eating...&amp;#34;); } } class Dog extends Animal { void bark() { System.out.println(&amp;#34;barking...&amp;#34;); } } class TestInheritance { public static void main(String[] args) { Dog dog = new Dog(); dog.bark(); dog.eat(); } } </description>
+    </item>
+    <item>
+      <title>Java OOP: Final Keyword</title>
+      <link>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-final/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-final/</guid>
+      <description>Java OOP Final Keyword: class Bike { final int speedlimit = 90; // final variable void run() { speedlimit = 400; // Compile Time Error } } class Main { public static void main(String args[]) { Bike obj = new Bike(); obj.run(); } } </description>
+    </item>
+    <item>
+      <title>Java OOP: Static Keyword</title>
+      <link>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-static/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-static/</guid>
+      <description>Java OOP Static Keyword: class Student { int studentId; // instance variable String studentName; static String collegeName = &amp;#34;XYZ&amp;#34;; // static variable // constructor Student(int studentId, String studentName) { this.studentId = studentId; this.studentName = studentName; } // method to display the values void display() { System.out.println(studentId + &amp;#34; &amp;#34; + studentName + &amp;#34; &amp;#34; + collegeName); } public static void main(String args[]) { Student s1 = new Student(111, &amp;#34;Karan&amp;#34;); Student s2 = new Student(222, &amp;#34;Aryan&amp;#34;); s1.</description>
+    </item>
+    <item>
+      <title>Java OOP: Super Keyword</title>
+      <link>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-super/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-super/</guid>
+      <description>Java OOP Super Keyword: class Animal { void eat() { System.out.println(&amp;#34;Animal is eating...&amp;#34;); } } class Dog extends Animal { void eat() { super.eat(); // Calls the parent class method System.out.println(&amp;#34;Dog is eating...&amp;#34;); } } public class TestSuper { public static void main(String[] args) { Dog dog = new Dog(); dog.eat(); } } </description>
+    </item>
+  </channel>
+</rss>

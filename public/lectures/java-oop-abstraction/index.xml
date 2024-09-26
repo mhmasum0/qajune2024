@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java OOP Abstraction on QA June 2024</title>
+    <link>http://localhost:1313/qajune2024/lectures/java-oop-abstraction/</link>
+    <description>Recent content in Java OOP Abstraction on QA June 2024</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/qajune2024/lectures/java-oop-abstraction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java OOP Abstract Class</title>
+      <link>http://localhost:1313/qajune2024/lectures/java-oop-abstraction/java-oop-abstract-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qajune2024/lectures/java-oop-abstraction/java-oop-abstract-class/</guid>
+      <description>Java OOP Abstract Class: abstract class Animal { abstract void sound(); void eat() { System.out.println(&amp;#34;Eating...&amp;#34;); } } class Dog extends Animal { void sound() { System.out.println(&amp;#34;Bark&amp;#34;); } } class AbstractClassExample { public static void main(String[] args) { Animal animal = new Dog(); animal.sound(); animal.eat(); } } </description>
+    </item>
+    <item>
+      <title>Java OOP Interface</title>
+      <link>http://localhost:1313/qajune2024/lectures/java-oop-abstraction/java-oop-interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qajune2024/lectures/java-oop-abstraction/java-oop-interface/</guid>
+      <description>Java OOP Interface: interface Animal { void sound(); void eat(); } class Dog implements Animal { public void sound() { System.out.println(&amp;#34;Bark&amp;#34;); } public void eat() { System.out.println(&amp;#34;Eating...&amp;#34;); } } class InterfaceExample { public static void main(String[] args) { Animal animal = new Dog(); animal.sound(); animal.eat(); } } Java OOP Multiple Inheritance: interface Animal { void sound(); } interface Mammal { void eat(); } class Dog implements Animal, Mammal { public void sound() { System.</description>
+    </item>
+  </channel>
+</rss>

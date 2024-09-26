@@ -2,48 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/lectures/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/qajune2024/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-loops/do-while-loop/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-loops/do-while-loop/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-operators-and-control-statements/else-if-statement/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/else-if-statement/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-loops/for-loop/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-loops/for-loop/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-operators-and-control-statements/if-else-statement/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/if-else-statement/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/introduction-to-java/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/introduction-to-java/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-arrays/java-array/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-arrays/java-array/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-arrays/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-arrays/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-loops/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-loops/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/introduction-to-java/java-method-declaration/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-method-declaration/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-arrays/java-multi-dimensional-array/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-arrays/java-multi-dimensional-array/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-oop-fundamentals/java-oop-constructor/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-fundamentals/java-oop-constructor/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-oop-fundamentals/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-fundamentals/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-operators-and-control-statements/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/introduction-to-java/java-variables/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-loops/nested-for-loop/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-variables/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-loops/nested-for-loop/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-operators-and-control-statements/switch-statement/</loc>
+    <loc>http://localhost:1313/qajune2024/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/switch-statement/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/introduction-to-java/welcome-to-java/</loc>
+    <loc>http://localhost:1313/qajune2024/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/lectures/java-loops/while-loop/</loc>
+    <loc>http://localhost:1313/qajune2024/lectures/introduction-to-java/welcome-to-java/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-loops/while-loop/</loc>
   </url>
 </urlset>

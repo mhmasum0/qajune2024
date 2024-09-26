@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java OOP Fundamentals on QA June 2024</title>
+    <link>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-oop-inheritance-encapsulation/</link>
+    <description>Recent content in Java OOP Fundamentals on QA June 2024</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/qajune2024/lectures/introduction-to-java/java-oop-inheritance-encapsulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java OOP Constructor</title>
+      <link>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-oop-inheritance-encapsulation/java-oop-constructor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-oop-inheritance-encapsulation/java-oop-constructor/</guid>
+      <description>Java OOP Constructor: public class ConstructorExample { int x; int y; // Default Constructor public ConstructorExample() { x = 10; y = 20; } // Parameterized Constructor public ConstructorExample(int x, int y) { this.x = x; this.y = y; } public void display() { System.out.println(&amp;#34;x = &amp;#34; + x + &amp;#34; y = &amp;#34; + y); } public static void main(String[] args) { ConstructorExample obj1 = new ConstructorExample(); obj1.display(); ConstructorExample obj2 = new ConstructorExample(100, 200); obj2.</description>
+    </item>
+  </channel>
+</rss>

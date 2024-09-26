@@ -2,100 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>QA June 2024</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/qajune2024/</link>
     <description>Recent content on QA June 2024</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/qajune2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Do While Loop</title>
-      <link>http://localhost:1313/lectures/java-loops/do-while-loop/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-loops/do-while-loop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-loops/do-while-loop/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-loops/do-while-loop/</guid>
       <description>Example 1: public class DoWhileLoopExample1 { public static void main(String[] args) { int i = 1; do { System.out.println(&amp;#34;Hello World&amp;#34;); i++; } while (i &amp;lt;= 5); } } Example 2: public class DoWhileLoopExample2 { public static void main(String[] args) { int i = 1; do { System.out.println(i); i++; } while (i &amp;lt;= 10); } } </description>
     </item>
     <item>
       <title>Else If Statement</title>
-      <link>http://localhost:1313/lectures/java-operators-and-control-statements/else-if-statement/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/else-if-statement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-operators-and-control-statements/else-if-statement/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/else-if-statement/</guid>
       <description>public class ElseIfStatement { public static void main(String[] args) { int number = 0; if (number &amp;gt; 0) { System.out.println(&amp;#34;The number is positive.&amp;#34;); } else if (number &amp;lt; 0) { System.out.println(&amp;#34;The number is negative.&amp;#34;); } else { System.out.println(&amp;#34;The number is zero.&amp;#34;); } } } Another example: public class Main { public static void main(String[] args) { int number = 50; if(number &amp;lt;= 20) { System.out.println(&amp;#34;Number is less than or equal to 20&amp;#34;); } else if(number &amp;lt; 40) { System.</description>
     </item>
     <item>
       <title>For Loop</title>
-      <link>http://localhost:1313/lectures/java-loops/for-loop/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-loops/for-loop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-loops/for-loop/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-loops/for-loop/</guid>
       <description>Example 1: public class ForLoopExample1 { public static void main(String[] args) { for (int i = 1; i &amp;lt;= 5; i++) { System.out.println(&amp;#34;Hello World&amp;#34;); } } } Example 2: public class ForLoopExample2 { public static void main(String[] args) { for (int i = 1; i &amp;lt;= 10; i++) { System.out.println(i); } } } </description>
     </item>
     <item>
       <title>If-Else Statement</title>
-      <link>http://localhost:1313/lectures/java-operators-and-control-statements/if-else-statement/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/if-else-statement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-operators-and-control-statements/if-else-statement/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/if-else-statement/</guid>
       <description>public class IfElseStatement { public static void main(String[] args) { int number = 10; if (number &amp;gt; 0) { System.out.println(&amp;#34;The number is positive.&amp;#34;); } else { System.out.println(&amp;#34;The number is negative.&amp;#34;); } } } Another example: public class Main { public static void main(String[] args) { boolean isLightOn = false; if(isLightOn) { System.out.println(&amp;#34;The light is turned on&amp;#34;); } else { System.out.println(&amp;#34;The light is turned off&amp;#34;); } } } </description>
     </item>
     <item>
       <title>Java Array</title>
-      <link>http://localhost:1313/lectures/java-arrays/java-array/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-arrays/java-array/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-arrays/java-array/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-arrays/java-array/</guid>
       <description>Example 1: public class ArrayExample { public static void main(String[] args) { int[] numbers = new int[5]; numbers[0] = 10; numbers[1] = 20; numbers[2] = 30; numbers[3] = 40; numbers[4] = 50; for (int i = 0; i &amp;lt; numbers.length; i++) { System.out.println(numbers[i]); } } } Example 2: public class ArrayExample2 { public static void main(String[] args) { int[] numbers = {10, 20, 30, 40, 50}; for (int i = 0; i &amp;lt; numbers.</description>
     </item>
     <item>
       <title>Java Method Declaration</title>
-      <link>http://localhost:1313/lectures/introduction-to-java/java-method-declaration/</link>
+      <link>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-method-declaration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/introduction-to-java/java-method-declaration/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-method-declaration/</guid>
       <description>Example 1: public int sum(int number1, int number2) { // Perform arithmetic operation int sum = number1 + number2; // Return result return sum; } Example 2: public void displayMessage() { System.out.println(&amp;#34;Hello, World!&amp;#34;); } Example 3: public int max(int number1, int number2) { if (number1 &amp;gt; number2) { return number1; } else { return number2; } } </description>
     </item>
     <item>
       <title>Java Multi-Dimensional Array</title>
-      <link>http://localhost:1313/lectures/java-arrays/java-multi-dimensional-array/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-arrays/java-multi-dimensional-array/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-arrays/java-multi-dimensional-array/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-arrays/java-multi-dimensional-array/</guid>
       <description>Example 1: class JavaMultidimensionalArray{ public static void main(String[] args) { int[][] intArray = new int[2][3]; intArray[0][0] = 10; intArray[0][1] = 20; intArray[0][2] = 30; intArray[1][0] = 40; intArray[1][1] = 50; intArray[1][2] = 60; for (int i = 0; i &amp;lt; intArray.length; i++) { for (int j = 0; j &amp;lt; intArray[i].length; j++) { System.out.println(intArray[i][j]); } } } } Example 2: class JavaMultidimensionalArray2{ public static void main(String[] args) { int[][] intArray = {{10, 20, 30}, {40, 50, 60}}; for (int i = 0; i &amp;lt; intArray.</description>
     </item>
     <item>
       <title>Java OOP Constructor</title>
-      <link>http://localhost:1313/lectures/java-oop-fundamentals/java-oop-constructor/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-oop-fundamentals/java-oop-constructor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-oop-fundamentals/java-oop-constructor/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-oop-fundamentals/java-oop-constructor/</guid>
       <description>Java OOP Constructor: public class ConstructorExample { int x; int y; // Default Constructor public ConstructorExample() { x = 10; y = 20; } // Parameterized Constructor public ConstructorExample(int x, int y) { this.x = x; this.y = y; } public void display() { System.out.println(&amp;#34;x = &amp;#34; + x + &amp;#34; y = &amp;#34; + y); } public static void main(String[] args) { ConstructorExample obj1 = new ConstructorExample(); obj1.display(); ConstructorExample obj2 = new ConstructorExample(100, 200); obj2.</description>
     </item>
     <item>
       <title>Java Variables</title>
-      <link>http://localhost:1313/lectures/introduction-to-java/java-variables/</link>
+      <link>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/introduction-to-java/java-variables/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/introduction-to-java/java-variables/</guid>
       <description>public class JavaVariables { public static void main(String[] args) { // Declare variables int number1; int number2; int sum; // Assign values to variables number1 = 5; number2 = 10; // Perform arithmetic operation sum = number1 + number2; // Display result System.out.println(&amp;#34;The sum of &amp;#34; + number1 + &amp;#34; and &amp;#34; + number2 + &amp;#34; is &amp;#34; + sum); } } </description>
     </item>
     <item>
       <title>Nested For Loop</title>
-      <link>http://localhost:1313/lectures/java-loops/nested-for-loop/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-loops/nested-for-loop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-loops/nested-for-loop/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-loops/nested-for-loop/</guid>
       <description>Example 1: public class NestedForLoopExample1 { public static void main(String[] args) { for (int i = 1; i &amp;lt;= 5; i++) { for (int j = 1; j &amp;lt;= 5; j++) { System.out.print(&amp;#34;* &amp;#34;); } System.out.println(); } } } Example 2: public class NestedForLoopExample2 { public static void main(String[] args) { for (int i = 0; i &amp;lt; 3; i++) { // Outer loop for (int j = 0; j &amp;lt; 3; j++) { // Inner loop System.</description>
     </item>
     <item>
       <title>Switch Statement</title>
-      <link>http://localhost:1313/lectures/java-operators-and-control-statements/switch-statement/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/switch-statement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-operators-and-control-statements/switch-statement/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/switch-statement/</guid>
       <description>Example 1: public class SwitchStatement { public static void main(String[] args) { int day = 3; String dayString; switch (day) { case 1: dayString = &amp;#34;Monday&amp;#34;; break; case 2: dayString = &amp;#34;Tuesday&amp;#34;; break; case 3: dayString = &amp;#34;Wednesday&amp;#34;; break; case 4: dayString = &amp;#34;Thursday&amp;#34;; break; case 5: dayString = &amp;#34;Friday&amp;#34;; break; case 6: dayString = &amp;#34;Saturday&amp;#34;; break; case 7: dayString = &amp;#34;Sunday&amp;#34;; break; default: dayString = &amp;#34;Invalid day&amp;#34;; break; } System.</description>
     </item>
     <item>
       <title>Welcome to Java</title>
-      <link>http://localhost:1313/lectures/introduction-to-java/welcome-to-java/</link>
+      <link>http://localhost:1313/qajune2024/lectures/introduction-to-java/welcome-to-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/introduction-to-java/welcome-to-java/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/introduction-to-java/welcome-to-java/</guid>
       <description>public class WelcomeToJava { public static void main(String[] args) { System.out.println(&amp;#34;Welcome to Java!&amp;#34;); } } </description>
     </item>
     <item>
       <title>While Loop</title>
-      <link>http://localhost:1313/lectures/java-loops/while-loop/</link>
+      <link>http://localhost:1313/qajune2024/lectures/java-loops/while-loop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lectures/java-loops/while-loop/</guid>
+      <guid>http://localhost:1313/qajune2024/lectures/java-loops/while-loop/</guid>
       <description>Example 1: public class WhileLoopExample1 { public static void main(String[] args) { int i = 1; while (i &amp;lt;= 5) { System.out.println(&amp;#34;Hello World&amp;#34;); i++; } } } Example 2 (Infinite Loop): public class WhileLoopExample2 { public static void main(String[] args) { while (true) { System.out.println(&amp;#34;Infinite Loop&amp;#34;); } } } </description>
     </item>
   </channel>

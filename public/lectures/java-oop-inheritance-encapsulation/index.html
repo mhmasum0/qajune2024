@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/qajune2024/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=qajune2024/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Java OOP Inheritance and Encapsulation | QA June 2024</title>
+
+    <link rel="stylesheet" href="/qajune2024/css/styles.css">
+
+
+      <script src="/qajune2024/js/main.js"></script>
+
+
+</head>
+<body>
+  <header lass="container mx-auto">
+    <div class="container mx-auto">
+    <div class="flex justify-center">
+          <h1 class="text-blue-600">QA June 2024</h1>
+    </div>
+</div>
+
+
+  </header>
+  <div class="flex flex-1">
+    
+    <div class="bg-gray-100 w-64 p-4">
+      <aside class="w-64 bg-gray-100 p-4">
+    <nav>
+        <ul class="space-y-2">
+            
+            <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/" class="text-lg font-medium text-gray-700">
+            Lectures
+        </a>
+
+        
+        
+        <button class="text-gray-600 group-hover:text-blue-500 focus:outline-none focus:text-blue-600 toggle-button" aria-expanded="true">
+            
+            <svg class="w-4 h-4 rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 00-.707.293l-3 3a1 1 0 001.414 1.414L10 7.414l2.293 2.293a1 1 0 001.414-1.414l-3-3A1 1 0 0010 5z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+    </div>
+
+    
+    
+    <ul class="ml-4 mt-2 space-y-1 toggle-menu">
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/introduction-to-java/" class="text-lg font-medium text-gray-700">
+            Introduction to Java
+        </a>
+
+        
+        
+        <button class="text-gray-600 group-hover:text-blue-500 focus:outline-none focus:text-blue-600 toggle-button" aria-expanded="true">
+            
+            <svg class="w-4 h-4 rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 00-.707.293l-3 3a1 1 0 001.414 1.414L10 7.414l2.293 2.293a1 1 0 001.414-1.414l-3-3A1 1 0 0010 5z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+    </div>
+
+    
+    
+    <ul class="ml-4 mt-2 space-y-1 toggle-menu">
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/introduction-to-java/welcome-to-java/" class="text-lg font-medium text-gray-700">
+            Welcome to Java
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/introduction-to-java/java-variables/" class="text-lg font-medium text-gray-700">
+            Java Variables
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/introduction-to-java/java-method-declaration/" class="text-lg font-medium text-gray-700">
+            Java Method Declaration
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+    </ul>
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-operators-and-control-statements/" class="text-lg font-medium text-gray-700">
+            Java Operators and Control Statements
+        </a>
+
+        
+        
+        <button class="text-gray-600 group-hover:text-blue-500 focus:outline-none focus:text-blue-600 toggle-button" aria-expanded="true">
+            
+            <svg class="w-4 h-4 rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 00-.707.293l-3 3a1 1 0 001.414 1.414L10 7.414l2.293 2.293a1 1 0 001.414-1.414l-3-3A1 1 0 0010 5z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+    </div>
+
+    
+    
+    <ul class="ml-4 mt-2 space-y-1 toggle-menu">
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-operators-and-control-statements/if-else-statement/" class="text-lg font-medium text-gray-700">
+            If-Else Statement
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-operators-and-control-statements/else-if-statement/" class="text-lg font-medium text-gray-700">
+            Else If Statement
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-operators-and-control-statements/switch-statement/" class="text-lg font-medium text-gray-700">
+            Switch Statement
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+    </ul>
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-loops/" class="text-lg font-medium text-gray-700">
+            Java Loops
+        </a>
+
+        
+        
+        <button class="text-gray-600 group-hover:text-blue-500 focus:outline-none focus:text-blue-600 toggle-button" aria-expanded="true">
+            
+            <svg class="w-4 h-4 rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 00-.707.293l-3 3a1 1 0 001.414 1.414L10 7.414l2.293 2.293a1 1 0 001.414-1.414l-3-3A1 1 0 0010 5z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+    </div>
+
+    
+    
+    <ul class="ml-4 mt-2 space-y-1 toggle-menu">
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-loops/for-loop/" class="text-lg font-medium text-gray-700">
+            For Loop
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-loops/nested-for-loop/" class="text-lg font-medium text-gray-700">
+            Nested For Loop
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-loops/while-loop/" class="text-lg font-medium text-gray-700">
+            While Loop
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-loops/do-while-loop/" class="text-lg font-medium text-gray-700">
+            Do While Loop
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+    </ul>
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-arrays/" class="text-lg font-medium text-gray-700">
+            Java Arrays
+        </a>
+
+        
+        
+        <button class="text-gray-600 group-hover:text-blue-500 focus:outline-none focus:text-blue-600 toggle-button" aria-expanded="true">
+            
+            <svg class="w-4 h-4 rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 00-.707.293l-3 3a1 1 0 001.414 1.414L10 7.414l2.293 2.293a1 1 0 001.414-1.414l-3-3A1 1 0 0010 5z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+    </div>
+
+    
+    
+    <ul class="ml-4 mt-2 space-y-1 toggle-menu">
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-arrays/java-array/" class="text-lg font-medium text-gray-700">
+            Java Array
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-arrays/java-multi-dimensional-array/" class="text-lg font-medium text-gray-700">
+            Java Multi-Dimensional Array
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+    </ul>
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-fundamentals/" class="text-lg font-medium text-gray-700">
+            Java OOP Fundamentals
+        </a>
+
+        
+        
+        <button class="text-gray-600 group-hover:text-blue-500 focus:outline-none focus:text-blue-600 toggle-button" aria-expanded="true">
+            
+            <svg class="w-4 h-4 rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 00-.707.293l-3 3a1 1 0 001.414 1.414L10 7.414l2.293 2.293a1 1 0 001.414-1.414l-3-3A1 1 0 0010 5z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+    </div>
+
+    
+    
+    <ul class="ml-4 mt-2 space-y-1 toggle-menu">
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-fundamentals/java-oop-constructor/" class="text-lg font-medium text-gray-700">
+            Java OOP Constructor
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+    </ul>
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-inheritance-encapsulation/" class="text-lg font-medium text-gray-700">
+            Java OOP Inheritance and Encapsulation
+        </a>
+
+        
+        
+        <button class="text-gray-600 group-hover:text-blue-500 focus:outline-none focus:text-blue-600 toggle-button" aria-expanded="true">
+            
+            <svg class="w-4 h-4 rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 00-.707.293l-3 3a1 1 0 001.414 1.414L10 7.414l2.293 2.293a1 1 0 001.414-1.414l-3-3A1 1 0 0010 5z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+    </div>
+
+    
+    
+    <ul class="ml-4 mt-2 space-y-1 toggle-menu">
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-single-inheritance/" class="text-lg font-medium text-gray-700">
+            Java OOP Single Inheritance
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-getter-setter/" class="text-lg font-medium text-gray-700">
+            Java OOP Getter and Setter
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-super/" class="text-lg font-medium text-gray-700">
+            Java OOP: Super Keyword
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-final/" class="text-lg font-medium text-gray-700">
+            Java OOP: Final Keyword
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-static/" class="text-lg font-medium text-gray-700">
+            Java OOP: Static Keyword
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+    </ul>
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-polymorphism/" class="text-lg font-medium text-gray-700">
+            Java OOP Polymorphism
+        </a>
+
+        
+        
+        <button class="text-gray-600 group-hover:text-blue-500 focus:outline-none focus:text-blue-600 toggle-button" aria-expanded="true">
+            
+            <svg class="w-4 h-4 rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 00-.707.293l-3 3a1 1 0 001.414 1.414L10 7.414l2.293 2.293a1 1 0 001.414-1.414l-3-3A1 1 0 0010 5z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+    </div>
+
+    
+    
+    <ul class="ml-4 mt-2 space-y-1 toggle-menu">
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-polymorphism/java-oop-method-overriding/" class="text-lg font-medium text-gray-700">
+            Java OOP Method Overriding
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-polymorphism/java-oop-method-overloading/" class="text-lg font-medium text-gray-700">
+            Java OOP Method Overloading
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+    </ul>
+    
+</li>
+  
+        
+        <li class="group">
+    <div class="flex items-center justify-between cursor-pointer group-hover:text-blue-500">
+        <a href="/qajune2024/lectures/java-oop-abstraction/" class="text-lg font-medium text-gray-700">
+            Java OOP Abstraction
+        </a>
+
+        
+        
+    </div>
+
+    
+    
+</li>
+  
+        
+    </ul>
+    
+</li>
+
+            
+        </ul>
+    </nav>
+</aside>
+
+    </div>
+
+    
+    <main class="flex-1 p-6">
+      
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">Java OOP Inheritance and Encapsulation</h1>
+
+    <div class="prose">
+        <p>This is the content of Java OOP Inheritance and Encapsulation.</p>
+
+    </div>
+
+    <div class="space-y-8">
+        
+        
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">
+                <a href="http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-single-inheritance/" class="text-blue-600 hover:underline">Java OOP Single Inheritance</a>
+            </h2>
+            
+            
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">
+                <a href="http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-getter-setter/" class="text-blue-600 hover:underline">Java OOP Getter and Setter</a>
+            </h2>
+            
+            
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">
+                <a href="http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-super/" class="text-blue-600 hover:underline">Java OOP: Super Keyword</a>
+            </h2>
+            
+            
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">
+                <a href="http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-final/" class="text-blue-600 hover:underline">Java OOP: Final Keyword</a>
+            </h2>
+            
+            
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">
+                <a href="http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-static/" class="text-blue-600 hover:underline">Java OOP: Static Keyword</a>
+            </h2>
+            
+            
+        </div>
+        
+    </div>
+</div>
+
+    </main>
+  </div>
+  <footer class="container mx-auto">
+    <p>Copyright 2024. All rights reserved.</p>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const buttons = document.querySelectorAll('.toggle-button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                const submenu = button.closest('li').querySelector('.toggle-menu');
+
+                
+                if (submenu.classList.contains('hidden')) {
+                    submenu.classList.remove('hidden');
+                    button.setAttribute('aria-expanded', 'true');
+                    button.querySelector('svg').classList.add('rotate-180'); 
+                } else {
+                    submenu.classList.add('hidden');
+                    button.setAttribute('aria-expanded', 'false');
+                    button.querySelector('svg').classList.remove('rotate-180'); 
+                }
+            });
+        });
+    });
+</script>
+
+  </footer>
+</body>
+</html>
