@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container mx-auto px-4 py-8">
+    <!-- Dynamic Heading for the Lecture -->
+    <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+
+    <!-- Content of the Lecture -->
+    <div class="prose">
+        {{ .Content }}
+    </div>
+
+</div>
+{{ end }}

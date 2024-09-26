@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'QA June 2024'
+
+theme = 'qajune2024'
+
+[taxonomies]
+category = 'categories'
+tag = 'tags'

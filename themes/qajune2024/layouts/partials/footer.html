@@ -1,0 +1,23 @@
+<p>Copyright {{ now.Year }}. All rights reserved.</p>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const buttons = document.querySelectorAll('.toggle-button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                const submenu = button.closest('li').querySelector('.toggle-menu');
+
+                // Toggle submenu visibility
+                if (submenu.classList.contains('hidden')) {
+                    submenu.classList.remove('hidden');
+                    button.setAttribute('aria-expanded', 'true');
+                    button.querySelector('svg').classList.add('rotate-180'); // Rotate icon to indicate expanded
+                } else {
+                    submenu.classList.add('hidden');
+                    button.setAttribute('aria-expanded', 'false');
+                    button.querySelector('svg').classList.remove('rotate-180'); // Reset icon to collapsed
+                }
+            });
+        });
+    });
+</script>

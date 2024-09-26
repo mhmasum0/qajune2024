@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction to Java on QA June 2024</title>
+    <link>http://localhost:1313/lectures/introduction-to-java/</link>
+    <description>Recent content in Introduction to Java on QA June 2024</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/lectures/introduction-to-java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Method Declaration</title>
+      <link>http://localhost:1313/lectures/introduction-to-java/java-method-declaration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lectures/introduction-to-java/java-method-declaration/</guid>
+      <description>Example 1: public int sum(int number1, int number2) { // Perform arithmetic operation int sum = number1 + number2; // Return result return sum; } Example 2: public void displayMessage() { System.out.println(&amp;#34;Hello, World!&amp;#34;); } Example 3: public int max(int number1, int number2) { if (number1 &amp;gt; number2) { return number1; } else { return number2; } } </description>
+    </item>
+    <item>
+      <title>Java Variables</title>
+      <link>http://localhost:1313/lectures/introduction-to-java/java-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lectures/introduction-to-java/java-variables/</guid>
+      <description>public class JavaVariables { public static void main(String[] args) { // Declare variables int number1; int number2; int sum; // Assign values to variables number1 = 5; number2 = 10; // Perform arithmetic operation sum = number1 + number2; // Display result System.out.println(&amp;#34;The sum of &amp;#34; + number1 + &amp;#34; and &amp;#34; + number2 + &amp;#34; is &amp;#34; + sum); } } </description>
+    </item>
+    <item>
+      <title>Welcome to Java</title>
+      <link>http://localhost:1313/lectures/introduction-to-java/welcome-to-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lectures/introduction-to-java/welcome-to-java/</guid>
+      <description>public class WelcomeToJava { public static void main(String[] args) { System.out.println(&amp;#34;Welcome to Java!&amp;#34;); } } </description>
+    </item>
+  </channel>
+</rss>

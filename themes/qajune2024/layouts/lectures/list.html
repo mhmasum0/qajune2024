@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+
+    <div class="prose">
+        {{ .Content }}
+    </div>
+
+    <div class="space-y-8">
+        <!-- Range through all pages in the current section, ordered by menu weight -->
+        {{ range sort .Pages.ByWeight ".Params.menu.main.weight" }}
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">
+                <a href="{{ .Permalink }}" class="text-blue-600 hover:underline">{{ .Title }}</a>
+            </h2>
+            <!-- Check if the current page has sections (sub-pages/topics) -->
+            {{ if .Sections }}
+            <ul class="pl-4 space-y-2">
+                {{ range sort .Sections.ByWeight ".Params.menu.main.weight" }}
+                <li>
+                    <a href="{{ .Permalink }}" class="text-gray-700 hover:text-blue-600">
+                        {{ .Title }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

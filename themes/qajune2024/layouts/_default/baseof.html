@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header lass="container mx-auto">
+    {{ partial "header.html" . }}
+  </header>
+  <div class="flex flex-1">
+    <!-- Sidebar -->
+    <div class="bg-gray-100 w-64 p-4">
+      {{ partial "sidebar.html" . }}
+    </div>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-6">
+      {{ block "main" . }}{{ .Content }}{{ end }}
+    </main>
+  </div>
+  <footer class="container mx-auto">
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>

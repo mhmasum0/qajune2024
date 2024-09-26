@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture 2 on QA June 2024</title>
+    <link>http://localhost:1313/lectures/lecture-2/</link>
+    <description>Recent content in Lecture 2 on QA June 2024</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/lectures/lecture-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Topic 2.1</title>
+      <link>http://localhost:1313/lectures/lecture-2/topic-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lectures/lecture-2/topic-1/</guid>
+      <description>Here is the content of topic 2.1</description>
+    </item>
+    <item>
+      <title>Topic 2.2</title>
+      <link>http://localhost:1313/lectures/lecture-2/topic-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lectures/lecture-2/topic-2/</guid>
+      <description>Here is the content of topic 2.2</description>
+    </item>
+  </channel>
+</rss>

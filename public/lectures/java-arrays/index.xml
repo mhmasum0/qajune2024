@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java Arrays on QA June 2024</title>
+    <link>http://localhost:1313/lectures/java-arrays/</link>
+    <description>Recent content in Java Arrays on QA June 2024</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/lectures/java-arrays/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Array</title>
+      <link>http://localhost:1313/lectures/java-arrays/java-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lectures/java-arrays/java-array/</guid>
+      <description>Example 1: public class ArrayExample { public static void main(String[] args) { int[] numbers = new int[5]; numbers[0] = 10; numbers[1] = 20; numbers[2] = 30; numbers[3] = 40; numbers[4] = 50; for (int i = 0; i &amp;lt; numbers.length; i++) { System.out.println(numbers[i]); } } } Example 2: public class ArrayExample2 { public static void main(String[] args) { int[] numbers = {10, 20, 30, 40, 50}; for (int i = 0; i &amp;lt; numbers.</description>
+    </item>
+    <item>
+      <title>Java Multi-Dimensional Array</title>
+      <link>http://localhost:1313/lectures/java-arrays/java-multi-dimensional-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lectures/java-arrays/java-multi-dimensional-array/</guid>
+      <description>Example 1: class JavaMultidimensionalArray{ public static void main(String[] args) { int[][] intArray = new int[2][3]; intArray[0][0] = 10; intArray[0][1] = 20; intArray[0][2] = 30; intArray[1][0] = 40; intArray[1][1] = 50; intArray[1][2] = 60; for (int i = 0; i &amp;lt; intArray.length; i++) { for (int j = 0; j &amp;lt; intArray[i].length; j++) { System.out.println(intArray[i][j]); } } } } Example 2: class JavaMultidimensionalArray2{ public static void main(String[] args) { int[][] intArray = {{10, 20, 30}, {40, 50, 60}}; for (int i = 0; i &amp;lt; intArray.</description>
+    </item>
+  </channel>
+</rss>

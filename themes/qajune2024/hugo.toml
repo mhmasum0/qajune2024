@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+#[menu]
+#[[menu.main]]
+#identifier = "lectures"
+#name = "Lectures List"
+#url = "/lectures/"
+#weight = 2
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
