@@ -26,11 +26,33 @@
   </url><url>
     <loc>http://localhost:1313/qajune2024/lectures/java-arrays/java-multi-dimensional-array/</loc>
   </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-abstraction/java-oop-abstract-class/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-abstraction/</loc>
+  </url><url>
     <loc>http://localhost:1313/qajune2024/lectures/java-oop-fundamentals/java-oop-constructor/</loc>
   </url><url>
     <loc>http://localhost:1313/qajune2024/lectures/java-oop-fundamentals/</loc>
   </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-getter-setter/</loc>
+  </url><url>
     <loc>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-abstraction/java-oop-interface/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-polymorphism/java-oop-method-overloading/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-polymorphism/java-oop-method-overriding/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-polymorphism/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-single-inheritance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-final/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-static/</loc>
+  </url><url>
+    <loc>http://localhost:1313/qajune2024/lectures/java-oop-inheritance-encapsulation/java-oop-super/</loc>
   </url><url>
     <loc>http://localhost:1313/qajune2024/lectures/java-operators-and-control-statements/</loc>
   </url><url>

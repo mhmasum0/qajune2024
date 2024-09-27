@@ -1,7 +1,11 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+
+
+      <h2 class="p-4">Welcome to QA June 2024</h2>
+
+<!--  {{ range site.RegularPages }}-->
+<!--    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>-->
+<!--    {{ .Summary }}-->
+<!--  {{ end }}-->
 {{ end }}
