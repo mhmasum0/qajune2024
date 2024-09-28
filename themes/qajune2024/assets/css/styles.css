@@ -763,6 +763,10 @@ h3{
   padding-left: 1rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -838,6 +842,10 @@ h3{
 .post-details p{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.highlight pre {
+  padding: 10px;
 }
 
 .hover\:text-blue-600:hover{
